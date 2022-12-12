@@ -66,7 +66,7 @@
     height: 47px;
     top: 30px;
     right: 15px;
-    background: #c5a47e;
+    background: #2178bf;
     padding: 15px;
     z-index: 99999;
     -webkit-transition: all 0.2s ease-in-out;
@@ -238,7 +238,7 @@
 .dl-fixed-sidebar .logo h1 {
     font-weight: 400;
     font-size: 75px;
-    color: #c5a47e;
+    color: #2178bf;
 }
 .dl-fixed-sidebar .logo a span {
     display: block;
@@ -285,7 +285,7 @@
 }
 .dl-menu-fixed > ul > li > a.active,
 .dl-menu-fixed ul li:hover > a {
-    color: #c5a47e !important;
+    color: #2178bf !important;
 }
 .dl-menu-fixed > ul {
     margin-bottom: 40px;

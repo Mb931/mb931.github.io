@@ -48,10 +48,10 @@ a {
 span:hover,
 a:hover {
     text-decoration: none;
-    color: #cba982;
+    color: #2178bf;
 }
 b {
-    color: #cba982;
+    color: #2178bf;
     font-weight: 400;
 }
 h1 {
@@ -151,7 +151,7 @@ h6 {
 }
 
 .site-preloader-wrap .spinner {
-    background-color: #cba982;
+    background-color: #2178bf;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -275,7 +275,7 @@ h6 {
     height: 7px;
     margin-bottom: 10px;
     border-radius: 50%;
-    background: #cba982;
+    background: #2178bf;
     position: absolute;
     top: 10px;
     right: 0;
@@ -290,7 +290,7 @@ h6 {
    Hero Section
    ========================================================================== */
 .hero-section{
-    background-image: url(../img/hero-bg.jpg);
+    background-image: url(../img/herobg.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -311,7 +311,7 @@ h6 {
     color: #ddd;
 }
 .hero-content h2 span{
-    color: #cba982;
+    color: #2178bf;
 }
 .hero-social{
     position: absolute;
@@ -339,7 +339,7 @@ h6 {
     position: relative;
 }
 .about-bg .dots{
-    background-image: url(../img/doted-pattern.png);
+    /*background-image: url(../img/doted-pattern.png);*/
     position: absolute;
     width: 300px;
     height: 300px;
@@ -355,7 +355,7 @@ h6 {
 }
 .profile-info li span{
     font-weight: 600;
-    width: 100px;
+    width: 150px;
     letter-spacing: 0;
     color: #555;
     position: relative;
@@ -383,7 +383,7 @@ h6 {
     margin-bottom: 10px;
 }
 .exp-date i{
-    background-color: #cba982;
+    background-color: #2178bf;
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -418,11 +418,11 @@ h6 {
 }
 .skill-items .skill-item .progress .progress-bar {
     line-height: 5px;
-    background-color: #cba982;
+    background-color: #2178bf;
     position: relative
 }
 .skill-items .skill-item .progress .progress-bar span{
-    background-color: #cba982;
+    background-color: #2178bf;
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -438,7 +438,7 @@ h6 {
     z-index: 1;
 }
 .skill-items .skill-item .progress .progress-bar span:before{
-    background-color: rgba(197, 164, 126,0.8);
+    background-color: #2178bf;
     position: absolute;
     content: "";
     width: 30px;
@@ -487,7 +487,7 @@ h6 {
     transition: all 0.3s ease-in-out;
 }
 .services-item i{
-    color: #cba982;
+    color: #2178bf;
     font-size: 50px;
     display: block;
     margin-bottom: 20px;
@@ -586,7 +586,7 @@ h6 {
     left: 0;
     width: 100%;
     height: 5px;
-    background: #cba982;
+    background: #2178bf;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -653,10 +653,10 @@ h6 {
     font-weight: 400;
 }
 .owl-theme .owl-dots .owl-dot.active span{
-    background-color: #cba982;
+    background-color: #2178bf;
 }
 .owl-theme .owl-dots .owl-dot:hover span{
-    background-color: #cba982;
+    background-color: #2178bf;
 }
 
 /* ==========================================================================
@@ -699,7 +699,7 @@ h6 {
 .default-btn{
     font-family: "Open Sans",sans-serif;
     letter-spacing: 0.5px;
-    background-color: #cba982;
+    background-color: #2178bf;
     color: #fff;
     line-height: 45px;
     display: inline-block;
@@ -773,11 +773,11 @@ footer p {
     margin-bottom: 0;
 }
 footer p a {
-    color: #cba982;
+    color: #2178bf;
 }
 .footer-social{}
 .footer-social a{
-    margin-left: 15px;
+    margin-left: 0px;
 }
 
 
