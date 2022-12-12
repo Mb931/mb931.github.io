@@ -1,0 +1,100 @@
+body {
+    font-family: ‘Droid Arabic Naskh’, serif, sans-serif !important;
+    font-weight: 300;
+    font-size: 14px;
+    direction: rtl;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    text-align: right;
+}
+@media (min-width: 768px){
+    .offset-md-2 {
+        margin-right: 16.666667%;
+        margin-left: 0;
+    }
+}
+.text-right {
+    text-align: left !important;
+}
+
+.dl-sidebar-left {
+    left: auto;
+    right: 0;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(100%);
+}
+@media (min-width: 1200px){
+    .dl-sidebar-left ~ .dl-fixedsidebar-bg-overlay + .dl-side-content {
+        margin-left: 0;
+        margin-right: auto;
+    }
+    .dl-sidebar-left, .dl-sidebar-right {
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+}
+.dl-sidebar-left + .dl-burger-menu {
+    right: 0;
+    left: auto;
+}
+.dl-menu-open .dl-line-menu.dl-first-line {
+    -webkit-transform: rotate(-90deg) translateX(-8px);
+    -moz-transform: rotate(-90deg) translateX(-8px);
+    -o-transform: rotate(-90deg) translateX(-8px);
+    transform: rotate(-90deg) translateX(-8px);
+}
+.dl-menu-open .dl-line-menu.dl-last-line {
+    -webkit-transform: rotate(-90deg) translateX(8px);
+    -moz-transform: rotate(-90deg) translateX(8px);
+    -o-transform: rotate(-90deg) translateX(8px);
+    transform: rotate(-90deg) translateX(8px);
+}
+.dl-line-menu.dl-first-line { transform-origin: left; }
+.dl-line-menu.dl-last-line { transform-origin: right; }
+.dl-menu-fixed > ul { text-align: right; }
+.hero-social {
+    right: auto;
+    left: 80px;
+}
+.services-item,
+.resume-section,
+.about-content { text-align: right; }
+.about-bg .dots {
+    left: auto;
+    right: -200px;
+}
+.profile-info li span {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.profile-info li span:after {
+    right: auto;
+    left: 0;
+}
+.skill-items .skill-item .progress .progress-bar span{
+    right: auto;
+    left: -15px;
+}
+.services-item .dots {
+    background-image: url(../img/doted-pattern.png);
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: auto;
+    left: -50px;
+    bottom: -50px;
+}
+.services-item p { font-size: 18px; }
+.cta-section .text-right{ text-align: left!important; }
+@media screen and (max-width: 767px){
+    .cta-section, .cta-section .text-right { text-align: center!important; }
+}
+
+@media screen and (max-width: 580px){
+    .footer-social { text-align: center!important; }
+}
+
